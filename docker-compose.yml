@@ -3,4 +3,4 @@ services:
   web:
     image: "github.com/yxwzaxns/cider-ci-test:latest"
     ports:
-      - "127.0.0.1:8000:80/tcp"
+      - "127.0.0.1:8888:80/tcp"

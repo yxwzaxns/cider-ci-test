@@ -4,5 +4,5 @@ services:
     image: "github.com/yxwzaxns/cider-ci-test:latest"
     ports:
       - "127.0.0.1:8888:80/tcp"
-	volumes:
-     - "/tmp/vo:/usr/share/nginx/html"
+    volumes:
+      - "/tmp/vo:/usr/share/nginx/html"
